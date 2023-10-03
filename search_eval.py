@@ -15,7 +15,6 @@ def load_ranker(cfg_file):
     #return metapy.index.OkapiBM25(1, 0.75, 100)
     return metapy.index.OkapiBM25(2, 0.75, 3.235)
     
-
 if __name__ == '__main__':
     if len(sys.argv) != 2:
         print("Usage: {} config.toml".format(sys.argv[0]))
